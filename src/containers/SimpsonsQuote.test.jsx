@@ -6,5 +6,7 @@ import SimpsonsQuote from './SimpsonsQuote';
 describe('Functional Container Component', () => {
   it('contains the working presentational components', async () => {
     render(<SimpsonsQuote />);
+
+    const button = screen.getByRole('button');
   });
 });

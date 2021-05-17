@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Load = () => {
-  return <div>Load!</div>;
+  return <button>Load!</button>;
 };
 
 export default Load;
