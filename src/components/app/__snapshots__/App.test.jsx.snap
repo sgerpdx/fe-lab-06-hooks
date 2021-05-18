@@ -5,5 +5,22 @@ exports[`App component renders App 1`] = `
   <h1>
     Hello World
   </h1>
+  <button>
+    Load!
+  </button>
+  <figure>
+    <img
+      alt="CaNedian"
+      aria-label="Character Picture"
+      name="sImg"
+      src="https://static.simpsonswiki.com/images/5/58/Canadian_Flanders.png"
+    />
+    <p
+      aria-label="Character Quote"
+      name="sText"
+    >
+      Howdy Neighbor
+    </p>
+  </figure>
 </DocumentFragment>
 `;
