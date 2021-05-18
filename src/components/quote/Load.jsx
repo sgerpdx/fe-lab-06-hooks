@@ -1,14 +1,10 @@
 import React from 'react';
-//import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
-export default function Load({ onChange }) {
-  return (
-    <button id="button" onChange={onChange}>
-      Load!
-    </button>
-  );
+export default function Load({ onClick }) {
+  return <button onClick={onClick}>Load!</button>;
 }
 
-// Load.propTypes = {
-//   onChange: PropTypes.func.isRequired,
-// };
+Load.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};

@@ -10,17 +10,15 @@ export default function SimpsonsQuote() {
   const [charText, setCharText] = useState('Howdy Neighbor');
 
   const handleClick = async () => {
-    console.log('i have been clicked');
     const quote = await getQuote();
+    console.log(quote);
     setCharImg(quote.image);
     setCharText(quote.text);
   };
-  console.log('///', charImg);
-  console.log('>>>', charText);
   return (
     <>
       <h2>Container, present!</h2>
-      <Load onclick={handleClick} />
+      <Load onClick={handleClick} />
       <Quote image={charImg} text={charText} />
     </>
   );
