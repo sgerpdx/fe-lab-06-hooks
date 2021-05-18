@@ -17,7 +17,6 @@ export default function SimpsonsQuote() {
   };
   return (
     <>
-      <h2>Container, present!</h2>
       <Load onClick={handleClick} />
       <Quote image={charImg} text={charText} />
     </>

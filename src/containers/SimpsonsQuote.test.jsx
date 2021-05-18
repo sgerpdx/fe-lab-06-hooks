@@ -9,5 +9,9 @@ describe('Functional Container Component', () => {
 
     const button = screen.getByRole('button');
     userEvent.click(button);
+
+    //const img = screen.getByRole('image', { name: 'Character Picture' });
+
+    //const text = screen.getByAltText('Character Quote');
   });
 });

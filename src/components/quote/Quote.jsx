@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 export default function Quote({ image, text }) {
   return (
     <figure>
-      <img src={image} />
-      <p>{text}</p>
+      <img name="sImg" aria-label="Character Picture" src={image} />
+      <p name="sText" aria-label="Character Quote">{text}</p>
     </figure>
   );
 }
