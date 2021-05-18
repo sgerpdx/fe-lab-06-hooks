@@ -8,7 +8,9 @@ exports[`App component renders App 1`] = `
   <h2>
     Container, present!
   </h2>
-  <button>
+  <button
+    id="button"
+  >
     Load!
   </button>
 </DocumentFragment>
