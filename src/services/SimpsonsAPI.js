@@ -5,6 +5,7 @@ const getQuote = async () => {
   return {
     image: data[0].image,
     text: data[0].quote,
+    character: data[0].character,
   };
 };
 

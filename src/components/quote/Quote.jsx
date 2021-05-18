@@ -1,11 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Quote({ image, text }) {
+export default function Quote({ image, text, character }) {
   return (
     <figure>
-      <img name="sImg" aria-label="Character Picture" src={image} />
-      <p name="sText" aria-label="Character Quote">{text}</p>
+      <img
+        name="sImg"
+        aria-label="Character Picture"
+        src={image}
+        alt={character}
+      />
+      <p name="sText" aria-label="Character Quote">
+        {text}
+      </p>
     </figure>
   );
 }
